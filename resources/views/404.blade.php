@@ -28,12 +28,12 @@
     <!-- Preloader -->
 
     <!-- Header  -->
-    <header class="l-header active t-bg-light">
+    <header class="l-header active t-bg-light border-bottom">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-7 col-lg-3 col-xl-2">
                     <div class="brand">
-                        <a href="index.html" class="t-link">
+                        <a href="/" class="t-link">
                             <img src="assets/img/logo.png" alt="zolfin" class="img-fluid w-100" />
                         </a>
                     </div>
@@ -50,118 +50,57 @@
                         </div>
                         <ul class="t-list zol-menu">
                             <li class="zol-menu__list zol-menu__current zol-menu__has-sub">
-                                <a href="#" class="t-link zol-menu__link">home</a>
-                                <ul class="t-list zol-menu__sub">
-                                    <li class="zol-menu__sub-list">
-                                        <a href="index.html" class="t-link zol-menu__sub-link">
-                                            home page
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="home-2.html" class="t-link zol-menu__sub-link">
-                                            home page 2
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="home-3.html" class="t-link zol-menu__sub-link">
-                                            home page 3
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="home-4.html" class="t-link zol-menu__sub-link">
-                                            home page 4
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="home-5.html" class="t-link zol-menu__sub-link">
-                                            home page 5
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="home-6.html" class="t-link zol-menu__sub-link">
-                                            home page 6
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="home-7.html" class="t-link zol-menu__sub-link">
-                                            home page 7
-                                        </a>
-                                    </li>
-                                </ul>
+                                <a href="/" class="t-link zol-menu__link">home</a>
                             </li>
                             <li class="zol-menu__list zol-menu__has-sub">
                                 <a href="#" class="t-link zol-menu__link">portfolio</a>
                                 <ul class="t-list zol-menu__sub">
                                     <li class="zol-menu__sub-list">
-                                        <a href="portfolio.html" class="t-link zol-menu__sub-link">
+                                        <a href="portfolio" class="t-link zol-menu__sub-link">
                                             portfolio
                                         </a>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="portfolio-details.html" class="t-link zol-menu__sub-link">
+                                        <a href="portfolio-details" class="t-link zol-menu__sub-link">
                                             portfolio details
                                         </a>
                                     </li>
                                 </ul>
                             </li>
 
-                            <li class="zol-menu__list zol-menu__has-sub">
-                                <a href="#" class="t-link zol-menu__link">service</a>
-                                <ul class="t-list zol-menu__sub">
-                                    <li class="zol-menu__sub-list">
-                                        <a href="service-details.html" class="t-link zol-menu__sub-link">
-                                            service details
-                                        </a>
-                                    </li>
-                                </ul>
+                            <li class="zol-menu__list">
+                                <a href="service-details" class="t-link zol-menu__link">service-details</a>
                             </li>
                             <li class="zol-menu__list zol-menu__has-sub">
                                 <a href="#" class="t-link zol-menu__link">page</a>
                                 <ul class="t-list zol-menu__sub">
                                     <li class="zol-menu__sub-list zol-menu__has-sub-2">
-                                        <a href="#" class="t-link zol-menu__sub-link">
+                                        <a href="about" class="t-link zol-menu__sub-link">
                                             about
                                         </a>
-                                        <ul class="t-list zol-menu__sub-2">
-                                            <li class="zol-menu__sub-2-list-2">
-                                                <a href="about.html" class="t-link zol-menu__sub-2-link-2">
-                                                    about us
-                                                </a>
-                                            </li>
-                                            <li class="zol-menu__sub-2-list-2">
-                                                <a href="about-2.html" class="t-link zol-menu__sub-2-link-2">
-                                                    about company
-                                                </a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="blog-details.html" class="t-link zol-menu__sub-link">
-                                            blog details
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="price.html" class="t-link zol-menu__sub-link">
+                                        <a href="price" class="t-link zol-menu__sub-link">
                                             price table
                                         </a>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="faq.html" class="t-link zol-menu__sub-link">
+                                        <a href="faq" class="t-link zol-menu__sub-link">
                                             FAQ
                                         </a>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="team.html" class="t-link zol-menu__sub-link">
+                                        <a href="team" class="t-link zol-menu__sub-link">
                                             team member
                                         </a>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="process.html" class="t-link zol-menu__sub-link">
+                                        <a href="process" class="t-link zol-menu__sub-link">
                                             our process
                                         </a>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="404.html" class="t-link zol-menu__sub-link">
+                                        <a href="404" class="t-link zol-menu__sub-link">
                                             404
                                         </a>
                                     </li>
@@ -171,24 +110,19 @@
                                 <a href="#" class="t-link zol-menu__link">blog</a>
                                 <ul class="t-list zol-menu__sub">
                                     <li class="zol-menu__sub-list">
-                                        <a href="blog.html" class="t-link zol-menu__sub-link">
+                                        <a href="blog" class="t-link zol-menu__sub-link">
                                             blog
                                         </a>
                                     </li>
                                     <li class="zol-menu__sub-list">
-                                        <a href="blog-2.html" class="t-link zol-menu__sub-link">
-                                            blog with sidebar
-                                        </a>
-                                    </li>
-                                    <li class="zol-menu__sub-list">
-                                        <a href="blog-2.html" class="t-link zol-menu__sub-link">
-                                            blog sidebar
+                                        <a href="blog-details" class="t-link zol-menu__sub-link">
+                                            blog details
                                         </a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="zol-menu__list">
-                                <a href="contact.html" class="t-link zol-menu__link">contact us</a>
+                                <a href="contact" class="t-link zol-menu__link">contact us</a>
                             </li>
                         </ul>
                     </div>
