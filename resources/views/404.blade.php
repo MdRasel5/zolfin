@@ -206,9 +206,10 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="cta t-bg-primary t-pt-50 t-pb-50 text-center d-lg-flex align-items-lg-center justify-content-lg-around">
+                        <div
+                            class="cta t-bg-primary t-pt-50 t-pb-50 text-center d-lg-flex align-items-lg-center justify-content-lg-around">
                             <h3 class="text-capitalize t-text-light text-center mt-lg-0 mb-lg-0">
-                                Ready to Work Together?
+                                Ready to Work Together.?
                             </h3>
                             <a href="contact.html" class="t-link bttn bttn-lg bttn-round bttn-light text-capitalize">
                                 get started
@@ -228,12 +229,14 @@
                             </h5>
                             <ul class="t-list text-center text-md-left">
                                 <li class="t-mb-10">
-                                    <a href="service-details.html" class="t-link text-capitalize t-link--primary t-link--alpha">
+                                    <a href="service-details.html"
+                                        class="t-link text-capitalize t-link--primary t-link--alpha">
                                         Web Page Design
                                     </a>
                                 </li>
                                 <li class="t-mb-10">
-                                    <a href="service-details.html" class="t-link text-capitalize t-link--primary t-link--alpha">
+                                    <a href="service-details.html"
+                                        class="t-link text-capitalize t-link--primary t-link--alpha">
                                         iOS Application
                                     </a>
                                 </li>
@@ -253,7 +256,8 @@
                                     </a>
                                 </li>
                                 <li class="t-mb-10">
-                                    <a href="process.html" class="t-link text-capitalize t-link--primary t-link--alpha">
+                                    <a href="process.html"
+                                        class="t-link text-capitalize t-link--primary t-link--alpha">
                                         terms condition
                                     </a>
                                 </li>
@@ -268,12 +272,14 @@
                             <h5 class="mt-0 text-capitalize text-center text-md-left">contact</h5>
                             <ul class="t-list text-center text-md-left">
                                 <li class="t-mb-10">
-                                    <a href="contact.html" class="t-link text-capitalize t-link--primary t-link--alpha">
+                                    <a href="contact.html"
+                                        class="t-link text-capitalize t-link--primary t-link--alpha">
                                         online form
                                     </a>
                                 </li>
                                 <li class="t-mb-10">
-                                    <a href="contact.html" class="t-link text-capitalize t-link--primary t-link--alpha">
+                                    <a href="contact.html"
+                                        class="t-link text-capitalize t-link--primary t-link--alpha">
                                         support
                                     </a>
                                 </li>
@@ -293,7 +299,8 @@
                             </h4>
                             <form action="#" class="newsletter border t-pt-5 t-pb-5 t-pl-15 t-pr-10">
                                 <input type="text" placeholder="your email" class="w-100 newsletter__input" />
-                                <button class="newsletter__button bttn bttn-round bttn-alpha bttn-sm text-uppercase border-0">
+                                <button
+                                    class="newsletter__button bttn bttn-round bttn-alpha bttn-sm text-uppercase border-0">
                                     join now
                                 </button>
                             </form>
