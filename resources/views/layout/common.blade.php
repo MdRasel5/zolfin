@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/img/favicon.png" sizes="16x16" type="image/png" />
 
     <!-- Stylesheet Link -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
 </head>
 
 <body class="t-bg-light-2">
@@ -34,7 +34,7 @@
                 <div class="col-7 col-lg-3 col-xl-2">
                     <div class="brand">
                         <a href="/" class="t-link">
-                            <img src="assets/img/logo.png" alt="zolfin" class="img-fluid w-100" />
+                            <img src="{{ asset('assets/img/logo.png') }}" alt="zolfin" class="img-fluid w-100" />
                         </a>
                     </div>
                 </div>
@@ -155,7 +155,8 @@
                     <div class="col-lg-4 t-mb-30 mb-lg-0">
                         <div class="brand mx-auto mx-lg-0">
                             <a href="index.html" class="t-link">
-                                <img src="assets/img/logo.png" alt="zolfin" class="img-fluid w-100" />
+                                <img src="{{ asset('assets/img/logo.png') }}" alt="zolfin"
+                                    class="img-fluid w-100" />
                             </a>
                         </div>
                     </div>
@@ -242,21 +243,21 @@
     <!-- Footer End -->
 
     <!-- jquery -->
-    <script src="assets/js/jquery.js"></script>
+    <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <!-- Slick Slider  -->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
     <!-- Nice Select  -->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
     <!-- Owl carousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <!-- Popup  -->
-    <script src="assets/js/magnafic-popup.js"></script>
+    <script src="{{ asset('assets/js/magnafic-popup.js') }}"></script>
     <!-- Animation on Scroll  -->
-    <script src="assets/js/sal.js"></script>
+    <script src="{{ asset('assets/js/sal.js') }}"></script>
     <!-- Main script -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>
